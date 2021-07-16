@@ -4,3 +4,5 @@ pytest-mock==3.5.1
 isort==5.7.0
 pytest==6.2.2
 pytest-cov==2.11.1
+tox==3.22.0
+flake8==3.8.4
