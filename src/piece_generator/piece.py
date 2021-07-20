@@ -19,11 +19,11 @@ class Piece:
                     self.__position = (row, column)
 
     def move(self):
-        self.__board[self.__position[0]][self.__position[1]] = None
+        self.kill_me()
         return self
 
     def kill_me(self):
-        self.move()
+        self.__board[self.__position[0]][self.__position[1]] = None
 
     def make_me_king(self):
         if self.__type == 'peon' and (
