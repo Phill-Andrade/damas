@@ -1,7 +1,7 @@
 from src.piece_generator.piece import Piece
 
-def create_peon(color, board):
-    peon = Piece(color, board)
+def create_peon(is_white, board):
+    peon = Piece(is_white, board)
     return peon
 
 def refresh_peaces(board):
